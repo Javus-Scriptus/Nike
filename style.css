@@ -1,0 +1,378 @@
+:root {
+  --header-background: #012d63;
+  --header-gray: #c7c7c7;
+  --purple: #8e32c6;
+  --card-gray: #d8d8d8;
+  --input-gray: #959595;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  /* height: 90px; */
+  background-color: #012d63;
+}
+
+.header-logo {
+  margin: 16px 152px 14px 168px;
+}
+
+.header-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+}
+
+.header-link {
+  list-style: none;
+}
+
+.header-links a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #c7c7c7;
+}
+
+.header-links a:hover {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.header-languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+  margin: 1px 165px 30px 1194px;
+}
+
+.header-language {
+  list-style: none;
+}
+
+.header-languages a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #dcdcdc;
+  opacity: 30%;
+}
+
+.header-languages a:hover {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* main */
+
+/* section 1 */
+
+.section-1 {
+  width: 100%;
+  height: 858px;
+  background-image: url(img/section-1/section-1-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.section-3-logo {
+  margin: 96px 1110px 1px 170px;
+}
+
+.section-1-h3 {
+  color: #ffffff;
+  font-family: 'PT Serif', serif;
+  font-size: 48px;
+  font-weight: 100;
+  margin: 1px 1067px 1px 195px;
+}
+
+.section-1-h1 {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 144px;
+  font-weight: 100;
+  margin: 3px 644px 1px 156px;
+}
+
+.section-1-h2 {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  font-weight: 100;
+  margin: 1px 736px 1px 164px;
+}
+
+.section-1-p {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 12px 768px 42px 164px;
+}
+
+.section-1-button {
+  color: #ffffff;
+  background-color: #8e32c6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 61px 19px 61px;
+  margin: 15px 1016px 182px 170px;
+}
+
+/* section 2 */
+
+.section-2 {
+  width: 100%;
+  height: 606px;
+  background-color: rgb(1, 7, 28);
+}
+
+.section-2-cards {
+  display: flex;
+  width: 1110px;
+  height: 396px;
+  outline: 5px solid #8e32c6;
+  margin: 0px 164px 106px 166px;
+}
+
+.section-2-card-left,
+.section-2-card-centre,
+.section-2-card-right {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 346px;
+}
+
+.section-2-card-left {
+  margin: 25px 30px 25px 2px;
+}
+.section-2-card-centre {
+  margin: 22px 85px 22px 125px;
+}
+.section-2-card-right {
+  margin: 22px 50px 25px 50px;
+}
+
+.secion-2-card-content {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 12px 768px 42px 164px;
+}
+
+.section-2-img {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 12px 768px 42px 164px;
+}
+
+.section-2-divider {
+  width: 1px;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+/* section 3 */
+
+.section-3 {
+  width: 100%;
+  height: 520px;
+  background-color: rgba(14, 52, 240, 0.868);
+}
+
+.section-3-caption {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 400;
+  margin: 12px 768px 42px 164px;
+}
+
+.section-3-cards {
+  display: flex;
+  width: 951px;
+  height: 292px;
+}
+
+.section-3-card {
+  display: flex;
+  /* flex-direction: column; */
+  width: 255px;
+  height: 292px;
+}
+
+.card-text {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 12px 768px 42px 164px;
+}
+
+.card-date {
+  color: #d8d8d8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 12px 768px 42px 164px;
+}
+
+.card-name {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 12px 768px 42px 164px;
+}
+
+.card-year {
+  color: #d8d8d8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 12px 768px 42px 164px;
+}
+
+/* section 4 */
+
+.section-4 {
+  width: 100%;
+  height: 509px;
+  background-color: #012d63;
+}
+
+.section-4-caption {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 100;
+  margin: 21px 655px 33px 655px;
+}
+
+.section-4-inputs {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.primary-input {
+  border: none;
+  border-radius: 50px;
+  width: 690px;
+  height: 60px;
+  opacity: 90%;
+  margin: 33px 375px 19px 375px;
+}
+
+.primary-input::placeholder {
+  color: #959595;
+  font-size: 28px;
+  padding: 12px 460px 13px 25px;
+}
+
+.secondary-input {
+  border: none;
+  border-radius: 50px;
+  width: 580px;
+  height: 50px;
+  margin: 19px 430px 19px 430px;
+}
+
+.secondary-input::placeholder {
+  color: #959595;
+  font-size: 24px;
+  padding: 11px 417px 11px 24px;
+}
+
+.section-4-button {
+  width: 248px;
+  height: 68px;
+  border: none;
+  border-radius: 16px;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #8e32c6;
+  margin: 20px 49px 20px 48px;
+  cursor: pointer;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  height: 292px;
+}
+
+.footer-questions {
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.footer-question {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  /* margin: 21px 655px 33px 655px; */
+}
+
+.footer-e-mails {
+  /* display: flex; */
+  /* flex-direction: column;   */
+}
+
+.footer-e-mail {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  /* margin: 21px 655px 33px 655px; */
+}
+
+.footer-protection {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  /* margin: 21px 655px 33px 655px; */
+}
+
+.footer-logo {
+  /* margin: 21px 655px 33px 655px; */
+}
+
+.footer-h3 {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  /* margin: 21px 655px 33px 655px; */
+}
