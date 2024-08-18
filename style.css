@@ -1,10 +1,26 @@
 :root {
+  /* general */
   --header-background: #012d63;
   --header-gray: #c7c7c7;
   --purple: #8e32c6;
   --card-gray: #d8d8d8;
   --input-gray: #959595;
   --white: #ffffff;
+  /* section 3 card-left gradient */
+  --first-color: #00e5e6;
+  --second-color: #00a8f7;
+  --third-color: #9a76f9;
+  --fourth-color: #cc5ec2;
+  /* section 3 card-center gradient */
+  --first-color: #ff68b4;
+  --second-color: #ff45e1;
+  --third-color: #ce3aff;
+  --fourth-color: #8961ff;
+  /* section 3 card-right gradient */
+  --first-color: #ffe128;
+  --second-color: #ff9b5c;
+  --third-color: #ff8381;
+  --fourth-color: #ff5489;
 }
 
 * {
@@ -205,7 +221,7 @@ p {
 .section-3 {
   width: 100%;
   height: 520px;
-  background-color: rgba(14, 52, 240, 0.868);
+  background-color: rgb(1, 7, 28);
 }
 
 .section-3-caption {
@@ -213,20 +229,68 @@ p {
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: 400;
-  margin: 12px 768px 42px 164px;
+  margin: 24px 632px 24px 633px;
 }
 
 .section-3-cards {
   display: flex;
   width: 951px;
   height: 292px;
+  /* justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center; */
 }
 
-.section-3-card {
-  display: flex;
-  /* flex-direction: column; */
+.section-3-card-left {
   width: 255px;
   height: 292px;
+  margin: 114px 93px 114px 244px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 13px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(
+    to bottom right,
+    #00e5e6 7%,
+    #00a8f7 26%,
+    #9a76f9 63%,
+    #cc5ec2 100%
+  );
+}
+
+.section-3-card-center {
+  width: 255px;
+  height: 292px;
+  margin: 114px 93px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 13px;
+  box-shadow: 0px 10px 30px #cc5ec2; 
+  background-image: linear-gradient(
+    to bottom right,
+    #ff68b4 0%,
+    #ff45e1 26%,
+    #ce3aff 63%,
+    #8961ff 100%
+  );
+}
+
+.section-3-card-right {
+  width: 255px;
+  height: 292px;
+  margin: 114px 245px 114px 93px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 13px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(
+    to bottom right,
+    #ffe128 0%,
+    #ff9b5c 30%,
+    #ff8381 63%,
+    #ff5489 100%
+  );
 }
 
 .card-text {
@@ -234,7 +298,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 400;
-  margin: 12px 768px 42px 164px;
+  margin: 49px 9px 8px 18px;
 }
 
 .card-date {
@@ -242,7 +306,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  margin: 12px 768px 42px 164px;
+  margin: 8px 201px 47px 18px;
 }
 
 .card-name {
@@ -250,7 +314,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  margin: 12px 768px 42px 164px;
+  margin: 2px 100px 1px 70px;
 }
 
 .card-year {
@@ -258,7 +322,11 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 400;
-  margin: 12px 768px 42px 164px;
+  margin: 1px 102px 1px 70px;
+}
+
+.card-img {
+  margin: 1px 5px 29px 18px;
 }
 
 /* section 4 */
