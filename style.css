@@ -404,8 +404,8 @@ p {
 }
 
 .footer-questions {
-  /* display: flex; */
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-question {
@@ -413,12 +413,12 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 100;
-  /* margin: 21px 655px 33px 655px; */
+  margin: 21px 655px 33px 655px;
 }
 
 .footer-e-mails {
-  /* display: flex; */
-  /* flex-direction: column;   */
+   display: flex;
+   flex-direction: column;
 }
 
 .footer-e-mail {
@@ -438,7 +438,7 @@ p {
 }
 
 .footer-logo {
-  /* margin: 21px 655px 33px 655px; */
+  margin: 21px 655px 33px 655px;
 }
 
 .footer-h3 {
