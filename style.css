@@ -30,7 +30,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -45,13 +45,21 @@ p {
 /* header */
 
 .header {
-  width: 100%;
+  /* width: 100%; */
   /* height: 90px; */
   background-color: #012d63;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
 }
 
-.header-logo {
-  margin: 16px 152px 14px 168px;
+.header-wrapper{
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+  gap: 73px;
 }
 
 .header-links {
@@ -81,7 +89,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 29px;
-  margin: 1px 165px 30px 1194px;
+  /* margin: 1px 165px 30px 1194px; */
 }
 
 .header-language {
@@ -225,7 +233,7 @@ p {
 .section-3 {
   width: 100%;
   height: 520px;
-  background-color: rgb(1, 7, 28);
+  background-color: rgb(65, 58, 161);
 }
 
 .section-3-caption {
@@ -233,7 +241,7 @@ p {
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: 400;
-  margin: 24px 632px 24px 633px;
+  margin: 0px 632px 24px 633px;
 }
 
 .section-3-cards {
@@ -346,7 +354,7 @@ p {
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: 100;
-  margin: 21px 655px 33px 655px;
+  margin: 0px 655px 33px 655px;
 }
 
 .section-4-inputs {
@@ -417,8 +425,8 @@ p {
 }
 
 .footer-e-mails {
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-e-mail {
