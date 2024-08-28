@@ -2,6 +2,7 @@
   /* general */
   --header-background: #012d63;
   --header-gray: #c7c7c7;
+  --footer-background: #021635;
   --purple: #8e32c6;
   --card-gray: #d8d8d8;
   --input-gray: #959595;
@@ -35,6 +36,8 @@ html {
 
 .container {
   margin: 0 auto;
+  width: 1110px;
+  /* outline: 3px solid red; */
 }
 
 p {
@@ -52,12 +55,7 @@ p {
   align-items: center;
 }
 
-.header-logo {
-  margin-left: 168px;
-  margin-right: 152px;
-}
-
-.header-wrapper{
+.header-wrapper {
   display: flex;
 }
 
@@ -94,7 +92,6 @@ p {
   justify-content: center;
   align-items: center;
   gap: 29px;
-  /* margin: 1px 165px 30px 1194px; */
 }
 
 .header-language {
@@ -119,14 +116,10 @@ p {
 
 .section-1 {
   width: 100%;
-  height: 858px;
-  background-image: url(img/section-1/section-1-background.jpg);
+  /* height: 858px; */
+  background-image: url(img/section-1/background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-}
-
-.section-3-logo {
-  margin: 96px 1110px 1px 170px;
 }
 
 .section-1-h3 {
@@ -134,7 +127,6 @@ p {
   font-family: 'PT Serif', serif;
   font-size: 48px;
   font-weight: 100;
-  margin: 1px 1067px 1px 195px;
 }
 
 .section-1-h1 {
@@ -142,7 +134,6 @@ p {
   font-family: 'Playfair Display', serif;
   font-size: 144px;
   font-weight: 100;
-  margin: 3px 644px 1px 156px;
 }
 
 .section-1-h2 {
@@ -150,7 +141,6 @@ p {
   font-family: 'Playfair Display', serif;
   font-size: 72px;
   font-weight: 100;
-  margin: 1px 736px 1px 164px;
 }
 
 .section-1-p {
@@ -158,7 +148,6 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  margin: 12px 768px 42px 164px;
 }
 
 .section-1-button {
@@ -170,24 +159,26 @@ p {
   cursor: pointer;
   border: none;
   border-radius: 10px;
-  padding: 20px 61px 19px 61px;
-  margin: 15px 1016px 182px 170px;
+  padding: 20px 60px;
+  margin-top: 15px;
 }
 
 /* section 2 */
 
 .section-2 {
   width: 100%;
-  height: 656px;
-  background-color: rgb(1, 7, 28);
+  /* height: 656px; */
+  background-image: url(img/section-2/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .section-2-cards {
   display: flex;
   width: 1110px;
   height: 396px;
-  outline: 5px solid #8e32c6;
-  margin: 0px 164px 106px 166px;
+  border: 5px solid #8e32c6;
+  gap: 155px;
 }
 
 .section-2-card-left,
@@ -197,16 +188,15 @@ p {
   flex-direction: column;
   width: 240px;
   height: 346px;
+  text-align: center;
 }
 
 .section-2-card-left {
-  margin: 25px 30px 25px 2px;
+  border-right: 2px solid #ffffff;
 }
-.section-2-card-centre {
-  margin: 22px 85px 22px 125px;
-}
+
 .section-2-card-right {
-  margin: 22px 50px 25px 50px;
+  border-left: 2px solid #ffffff;
 }
 
 .secion-2-card-content {
@@ -214,7 +204,6 @@ p {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
   font-weight: 400;
-  margin: 12px 768px 42px 164px;
 }
 
 .section-2-img {
@@ -222,23 +211,15 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  margin: 12px 768px 42px 164px;
-}
-
-.section-2-divider {
-  width: 1px;
-  height: 100%;
-  margin-left: 20px;
-  margin-right: 20px;
-  color: #ffffff;
 }
 
 /* section 3 */
 
 .section-3 {
   width: 100%;
-  height: 520px;
-  background-color: rgb(65, 58, 161);
+  background-image: url(img/section-3/backgound.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .section-3-caption {
@@ -246,7 +227,8 @@ p {
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: 400;
-  margin: 0px 632px 24px 633px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .section-3-cards {
@@ -254,20 +236,17 @@ p {
   width: 951px;
   height: 292px;
   /* margin: 0 auto; */
-  /* justify-content: center;
-  justify-items: center;
-  align-content: center;
-  align-items: center; */
+  margin: 0 auto;
+  gap: 90px;
 }
 
 .section-3-card-left {
   width: 255px;
   height: 292px;
-  /* margin: 114px 93px 114px 244px; */
   display: flex;
   flex-direction: column;
   border-radius: 13px;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 30px #cc5ec2;
   background-image: linear-gradient(
     to bottom right,
     #00e5e6 7%,
@@ -297,11 +276,10 @@ p {
 .section-3-card-right {
   width: 255px;
   height: 292px;
-  /* margin: 114px 245px 114px 93px; */
   display: flex;
   flex-direction: column;
   border-radius: 13px;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 30px #cc5ec2;
   background-image: linear-gradient(
     to bottom right,
     #ffe128 0%,
@@ -316,7 +294,8 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 400;
-  margin: 49px 9px 8px 18px;
+  margin-top: 35px;
+  margin-left: 18px;
 }
 
 .card-date {
@@ -324,7 +303,20 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  margin: 8px 201px 47px 18px;
+  margin-top: 8px;
+  margin-left: 18px;
+}
+
+
+.card-biography {
+  /* outline: 2px solid red; */
+  display: flex;
+  margin-top: 47px;
+  margin-left: 18px;
+}
+
+.card-text-info {
+  margin-left: 5px;
 }
 
 .card-name {
@@ -332,7 +324,6 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  margin: 2px 100px 1px 70px;
 }
 
 .card-year {
@@ -340,19 +331,16 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 400;
-  margin: 1px 102px 1px 70px;
-}
-
-.card-img {
-  /* margin: 1px 5px 29px 18px; */
 }
 
 /* section 4 */
 
 .section-4 {
   width: 100%;
-  height: 509px;
-  background-color: #012d63;
+  background-image: url(img/section-4/backgound.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
 }
 
 .section-4-caption {
@@ -360,7 +348,6 @@ p {
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: 100;
-  margin: 0px 655px 33px 655px;
 }
 
 .section-4-inputs {
@@ -375,8 +362,8 @@ p {
   width: 690px;
   height: 60px;
   opacity: 90%;
-  margin: 33px 375px 19px 375px;
   font-size: 25px;
+  margin-top: 20px;
 }
 
 .primary-input::placeholder {
@@ -390,8 +377,8 @@ p {
   border-radius: 50px;
   width: 580px;
   height: 50px;
-  margin: 19px 430px 19px 430px;
   font-size: 20px;
+  margin-top: 20px;
 }
 
 .secondary-input::placeholder {
@@ -401,6 +388,7 @@ p {
 }
 
 .section-4-button {
+  display: block;
   width: 248px;
   height: 68px;
   border: none;
@@ -408,59 +396,78 @@ p {
   font-size: 24px;
   color: #ffffff;
   background-color: #8e32c6;
-  margin: 20px 49px 20px 48px;
   cursor: pointer;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 /* footer */
 
-/* .footer {
-  width: 100%;
-  height: 292px;
+.footer {
+  background-color: #021635;
+}
+footer ul {
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .footer-questions {
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
   display: flex;
   flex-direction: column;
 }
 
 .footer-question {
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-weight: 100;
-  margin: 21px 655px 33px 655px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.question-1 {
+  margin-top: 120px;
+}
+
+footer a {
+  list-style: none;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 
 .footer-e-mails {
+  text-align: end;
   display: flex;
   flex-direction: column;
 }
 
 .footer-e-mail {
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 48px;
-  font-weight: 100;
-  margin: 21px 655px 33px 655px;
+  font-size: 24px;
+  list-style: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  margin-top: 10px;
+}
+
+.footer-hr {
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .footer-protection {
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;  
-  font-size: 48px;
-  font-weight: 100;
-  margin: 21px 655px 33px 655px;
-}
-
-.footer-logo {
-  margin: 21px 655px 33px 655px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
 
 .footer-h3 {
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 48px;
-  font-weight: 100;
-  margin: 21px 655px 33px 655px;
-} */
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-right: 37px;
+}
