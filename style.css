@@ -6,7 +6,7 @@
   --purple: #8e32c6;
   --card-gray: #d8d8d8;
   --input-gray: #959595;
-  --white: #ffffff; 
+  --white: #ffffff;
   /* section 3 card-left gradient */
   --first-color: #00e5e6;
   --second-color: #00a8f7;
@@ -264,7 +264,7 @@ p {
   display: flex;
   flex-direction: column;
   border-radius: 13px;
-  box-shadow: 0px 10px 30px #cc5ec2;
+  box-shadow: 0px 13px 0px -3px #9a76f9, 0px 17px 0px -9px #2c1e54;
   background-image: linear-gradient(
     to bottom right,
     #00e5e6 7%,
@@ -277,7 +277,6 @@ p {
 .section-3-card-center {
   width: 255px;
   height: 292px;
-  /* margin: 114px 93px; */
   display: flex;
   flex-direction: column;
   border-radius: 13px;
@@ -375,13 +374,28 @@ p {
   list-style: none;
 }
 
+.primary-input:focus {
+  outline: none;
+  border: none;
+}
+
+.secondary-input:focus {
+  outline: none;
+  border: none;
+}
+
 .input-button {
   font-family: 'Roboto', sans-serif;
-  color: #959595;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #8d8d8d;
+  font-size: 28px;
   font-weight: 400;
   margin-left: -273px;
   padding: 5px 78.57px;
   font-size: 28px;
+  cursor: pointer;
 }
 
 .primary-input {
@@ -392,6 +406,7 @@ p {
   opacity: 90%;
   font-size: 25px;
   margin-top: 20px;
+  background-color: #ffffff;
 }
 
 .primary-input::placeholder {
@@ -429,7 +444,7 @@ p {
   cursor: pointer;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 37px;
+  margin-bottom: 35.6px;
 }
 
 /* footer */
