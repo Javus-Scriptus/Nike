@@ -208,16 +208,16 @@ p {
 .section-2-card-left {
   border-right: 2px solid #ffffff;
   margin-left: 50px;
+  margin-top: 22px;
 }
 
-/* .section-2-card-center {
-  margin-left: 125px;
-  margin-right: 85px;
-} */
+.section-2-card-center {
+  margin-top: 24px;
+}
 
 .section-2-card-right {
   border-left: 2px solid #ffffff;
-  /* margin-right: 50px; */
+  margin-top: 22px;
 }
 
 .secion-2-card-content {
@@ -238,10 +238,9 @@ p {
 /* section 3 */
 
 .section-3 {
-  background-image: url(img/section-3/backgound.jpg),
-    url(img/section-3/leaf.png);
+  background-image: url(img/section-3/backgound.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto, ;
+  background-size: 100% auto;
 }
 
 .section-3-caption {
@@ -263,7 +262,6 @@ p {
 .section-3-cards {
   display: flex;
   width: 951px;
-  /* margin: 0 auto; */
   margin: 0 auto;
   gap: 90px;
   padding-bottom: 114px;
@@ -275,7 +273,7 @@ p {
   display: flex;
   flex-direction: column;
   border-radius: 13px;
-  box-shadow: 0px 13px 0px -3px 0px 13px 0px -3px rgba(156, 114, 231, 1),
+  box-shadow: 0px 13px 0px -4px rgba(156, 114, 231, 0.7),
     0px 17px 0px -9px rgba(107, 75, 155, 1);
   background-image: linear-gradient(
     to bottom right,
@@ -339,7 +337,7 @@ p {
 }
 
 .card-biography {
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
   display: flex;
   margin-top: 47px;
   margin-left: 18px;
@@ -347,6 +345,7 @@ p {
 
 .card-text-info {
   margin-left: 5px;
+  outline: 2px solid red;
 }
 
 .card-name {
@@ -407,6 +406,7 @@ p {
   font-size: 28px;
   font-weight: 400;
   margin-left: -273px;
+  margin-right: -60px;
   padding: 5px 78.57px;
   font-size: 28px;
   cursor: pointer;
@@ -516,7 +516,7 @@ footer a {
 }
 
 .footer-hr {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .footer-low-content {
