@@ -1,5 +1,4 @@
 :root {
-  /* general */
   --header-background: #012d63;
   --header-gray: #c7c7c7;
   --footer-background: #021635;
@@ -9,17 +8,14 @@
   --card-gray: #d8d8d8;
   --input-gray: #959595;
   --white: #ffffff;
-  /* section 3 card-left gradient */
   --card-left-first-color: #00e5e6;
   --card-left-second-color: #00a8f7;
   --card-left-third-color: #9a76f9;
   --card-left-fourth-color: #cc5ec2;
-  /* section 3 card-center gradient */
   --card-center-first-color: #ff68b4;
   --card-center-second-color: #ff45e1;
   --card-center-third-color: #ce3aff;
   --card-center-fourth-color: #8961ff;
-  /* section 3 card-right gradient */
   --card-right-first-color: #ffe128;
   --card-right-second-color: #ff9b5c;
   --card-right-third-color: #ff8381;
@@ -39,14 +35,11 @@ html {
 .container {
   margin: 0 auto;
   width: 1110px;
-  /* outline: 3px solid red; */
 }
 
 p {
   font-family: 'Roboto', sans-serif;
 }
-
-/* header */
 
 .header {
   background-color: #012d63;
@@ -116,10 +109,6 @@ p {
   font-weight: 600;
 }
 
-/* main */
-
-/* section 1 */
-
 .section-1 {
   width: 100%;
   background-image: url(img/section-1/background.jpg);
@@ -176,8 +165,6 @@ p {
   margin-top: 42px;
   margin-bottom: 182px;
 }
-
-/* section 2 */
 
 .section-2 {
   width: 100%;
@@ -241,8 +228,6 @@ p {
   font-size: 18px;
   font-weight: 400;
 }
-
-/* section 3 */
 
 .section-3 {
   background-image: url(img/section-3/biga.jpg);
@@ -367,8 +352,6 @@ p {
   font-weight: 400;
 }
 
-/* section 4 */
-
 .section-4 {
   background-image: url(img/section-4/backgound.jpg);
   background-repeat: no-repeat;
@@ -466,8 +449,6 @@ p {
   margin-top: 20px;
   margin-bottom: 35.6px;
 }
-
-/* footer */
 
 .footer {
   background-color: #021635;
