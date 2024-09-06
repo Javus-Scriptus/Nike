@@ -3,6 +3,8 @@
   --header-background: #012d63;
   --header-gray: #c7c7c7;
   --footer-background: #021635;
+  --footer-email-hover: #275cc4;
+  --footer-email-hover-extra: #9b9b9b;
   --purple: #8e32c6;
   --card-gray: #d8d8d8;
   --input-gray: #959595;
@@ -88,7 +90,7 @@ p {
 
 .header-links a:hover {
   color: #ffffff;
-  /* font-weight: 600; */
+  font-weight: 600;
 }
 
 .header-languages {
@@ -179,7 +181,6 @@ p {
 
 .section-2 {
   width: 100%;
-  /* height: 656px; */
   background-image: url(img/section-2/background.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -196,7 +197,7 @@ p {
 }
 
 .section-2-card-left,
-.section-2-card-centre,
+.section-2-card-center,
 .section-2-card-right {
   display: flex;
   flex-direction: column;
@@ -206,9 +207,15 @@ p {
 }
 
 .section-2-card-left {
-  border-right: 2px solid #ffffff;
   margin-left: 50px;
   margin-top: 22px;
+  border-right: 2px solid #ffffff;
+}
+
+.card-center-outside {
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
 .section-2-card-center {
@@ -238,7 +245,7 @@ p {
 /* section 3 */
 
 .section-3 {
-  background-image: url(img/section-3/backgound.jpg);
+  background-image: url(img/section-3/biga.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -253,11 +260,11 @@ p {
   padding-top: 24px;
 }
 
-/* .section-3-decoration {
+.section-3-decoration {
   display: block;
   width: 120px;
   height: 150px;
-} */
+}
 
 .section-3-cards {
   display: flex;
@@ -494,10 +501,16 @@ footer ul {
 }
 
 footer a {
+  font-family: 'Roboto', sans-serif;
   list-style: none;
   color: #ffffff;
   text-decoration: underline;
   text-decoration-thickness: 1px;
+}
+
+.footer-top-content a:hover {
+  background-color: #275cc4;
+  opacity: 83%;
 }
 
 .footer-e-mails {
@@ -612,53 +625,54 @@ footer a {
 }
 
 .rotate-center:hover {
-	-webkit-animation: rotate-center 0.8s ease-in-out both;
-	        animation: rotate-center 0.8s ease-in-out both;
+  -webkit-animation: rotate-center 0.8s ease-in-out both;
+  animation: rotate-center 0.8s ease-in-out both;
 }
 
 @-webkit-keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
-            transform: rotate(0);
+    transform: rotate(0);
   }
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 @keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
-            transform: rotate(0);
+    transform: rotate(0);
   }
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 .shadow-inset-center:hover {
-	-webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: shadow-inset-center 0.4s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-inset-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes shadow-inset-center {
   0% {
     -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
-            box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
   }
   100% {
     -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
-            box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
   }
 }
 @keyframes shadow-inset-center {
   0% {
     -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
-            box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
   }
   100% {
     -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
-            box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
   }
 }
