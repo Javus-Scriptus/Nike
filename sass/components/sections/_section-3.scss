@@ -1,0 +1,122 @@
+.section-3 {
+  background-image: url(img/section-3/biga.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.section-3-caption {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+.section-3-decoration {
+  display: block;
+  width: 120px;
+  height: 150px;
+}
+
+.section-3-cards {
+  display: flex;
+  width: 951px;
+  margin: 0 auto;
+  gap: 90px;
+  padding-bottom: 114px;
+}
+
+.section-3-card-left {
+  width: 255px;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 13px;
+  box-shadow: 0px 13px 0px -4px rgba(156, 114, 231, 0.8),
+    0px 26px 0px -9px rgba(107, 75, 155, 0.9);
+  background-image: linear-gradient(
+    to bottom right,
+    #00e5e6 7%,
+    #00a8f7 26%,
+    #9a76f9 63%,
+    #cc5ec2 100%
+  );
+}
+
+.section-3-card-center {
+  width: 255px;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 13px;
+  box-shadow: 0px 13px 0px -4px rgb(155, 83, 179),
+    0px 26px 0px -9px rgb(96, 49, 117);
+  background-image: linear-gradient(
+    to bottom right,
+    #ff68b4 0%,
+    #ff45e1 26%,
+    #ce3aff 63%,
+    #8961ff 100%
+  );
+}
+
+.section-3-card-right {
+  width: 255px;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 13px;
+  box-shadow: 0px 13px 0px -4px rgba(181, 88, 71, 1),
+    0px 26px 0px -9px rgba(110, 46, 39, 1);
+  background-image: linear-gradient(
+    to bottom right,
+    #ffe128 0%,
+    #ff9b5c 30%,
+    #ff8381 63%,
+    #ff5489 100%
+  );
+}
+
+.card-text {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 35px;
+  margin-left: 18px;
+}
+
+.card-date {
+  color: #d8d8d8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-left: 18px;
+}
+
+.card-biography {
+  display: flex;
+  margin-top: 47px;
+  margin-left: 18px;
+}
+
+.card-text-info {
+  margin-left: 5px;
+}
+
+.card-name {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-year {
+  color: #d8d8d8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}

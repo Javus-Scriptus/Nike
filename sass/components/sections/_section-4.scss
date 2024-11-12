@@ -1,0 +1,97 @@
+.section-4 {
+  background-image: url(img/section-4/backgound.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  padding-bottom: 14.8px;
+}
+
+.section-4-caption {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 100;
+  padding-top: 24px;
+  padding-bottom: 29.5px;
+}
+
+.section-4-inputs {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.primary-input:focus {
+  outline: none;
+  border: none;
+}
+
+.secondary-input:focus {
+  outline: none;
+  border: none;
+}
+
+.input-button {
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #8d8d8d;
+  font-size: 28px;
+  font-weight: 400;
+  margin-left: -273px;
+  margin-right: -60px;
+  padding: 5px 78.57px;
+  font-size: 28px;
+  cursor: pointer;
+  position: relative;
+}
+
+.primary-input {
+  border: none;
+  border-radius: 50px;
+  width: 690px;
+  height: 60px;
+  opacity: 90%;
+  font-size: 25px;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+.primary-input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  color: #959595;
+  font-size: 28px;
+  padding: 12px 460px 13px 25px;
+}
+
+.secondary-input {
+  border: none;
+  border-radius: 50px;
+  width: 580px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.secondary-input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  color: #959595;
+  font-size: 24px;
+  padding: 11px 417px 11px 24px;
+}
+
+.section-4-button {
+  display: block;
+  width: 248px;
+  height: 68px;
+  border: none;
+  border-radius: 16px;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #8e32c6;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 35.6px;
+}

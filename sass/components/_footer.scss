@@ -1,0 +1,86 @@
+.footer {
+  background-color: #021635;
+}
+footer ul {
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer-top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+}
+
+.footer-questions {
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-question {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+footer a {
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.footer-top-content a:hover {
+  background-color: #275cc4;
+  opacity: 83%;
+}
+
+.footer-e-mails {
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-e-mail {
+  color: #ffffff;
+  font-size: 24px;
+  list-style: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.footer-hr {
+  margin-top: 20px;
+}
+
+.footer-low-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-protection {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.footer-logo-content {
+  text-align: end;
+}
+
+.footer-h3 {
+  color: #ffffff;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-right: 37px;
+  margin-top: -12px;
+}
